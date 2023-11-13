@@ -28,3 +28,12 @@ git版本回退（已经使用git push上传后）
 		git reset --hard <commit_id>
 	然后再强制推送
 		git push -f
+
+
+新建一个项目
+	git初始化
+		git init --initial-branch=<name>
+	git关联远程仓库
+		git remote add origin <仓库地址>
+	git第一个push到远程仓库
+		git push -u origin <分支名>
